@@ -17,7 +17,7 @@ const Footer = () => {
     <>
       <div className={`${styles.main}`}>
         <div className={styles.footer}>
-          <Link href="">
+          <Link href="#">
             <FontAwesomeIcon icon={faFacebook} />
           </Link>
           <Link href="#" target="_blank">
@@ -26,7 +26,7 @@ const Footer = () => {
           <Link href="#" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} />
           </Link>
-          <Link href="">
+          <Link href="#">
             <FontAwesomeIcon icon={faTwitter} />
           </Link>
         </div>
