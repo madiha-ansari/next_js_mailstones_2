@@ -1,0 +1,340 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.main {
+  width: 100%;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.map {
+  width: 97%;
+}
+
+.main2 {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* address part */
+
+.address {
+  width: 35%;
+  height: 365px;
+}
+
+.address ul {
+  margin-bottom: 30px;
+}
+.address .ul1 {
+  list-style-type: none;
+  position: relative;
+}
+
+.linktag .homeIcon,
+.linktag.phone,
+.linktag.mail {
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+  left: -50px;
+  color: #ff004f;
+}
+
+.address .ul2 {
+  list-style-type: none;
+  position: relative;
+}
+
+.linktag .phone {
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+  left: -50px;
+  color: #ff004f;
+}
+
+.address .ul3 {
+  list-style-type: none;
+  position: relative;
+}
+
+.linktag .mail {
+  position: absolute;
+  top: 10px;
+  font-size: 25px;
+  left: -50px;
+  color: #ff004f;
+}
+
+.address ul li p {
+  font-size: 0.7rem;
+  color: #777;
+  display: inline-block;
+}
+
+.address ul li p:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.address ul h4 {
+  font-weight: 500;
+  display: inline-block;
+}
+.address ul h4:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.address ul h4 a {
+  text-decoration: none;
+  color: black;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.address ul h4 a:hover {
+  text-decoration: underline;
+}
+
+/* form */
+
+.form {
+  height: 430px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.form .inputfield {
+  height: 45px;
+  border: 1px solid #777;
+  padding-left: 8px;
+  padding-right: 5px;
+  border-radius: 2px;
+}
+
+.submitBtn {
+  padding: 10px 20px;
+  border: none;
+  border: 2px solid black;
+  background-color: white;
+  border-radius: 2px;
+  width: 30%;
+}
+
+.submitBtn:hover {
+  color: white;
+  background-color: #ff004f;
+  border: #ff004f 2px solid;
+  transition: 1s;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .main2 {
+    flex-direction: column;
+    margin-top: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .address {
+    height: 250px;
+    text-align: center;
+    width: 90%;
+  }
+  .form {
+    width: 90%;
+  }
+  .linktag .homeIcon {
+    left: 180px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 135px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 200px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 680px) {
+  .linktag .homeIcon {
+    left: 160px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 120px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 180px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 680px) {
+  .linktag .homeIcon {
+    left: 140px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 100px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 160px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 680px) {
+  .linktag .homeIcon {
+    left: 130px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 90px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 150px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 568px) {
+  .linktag .homeIcon {
+    left: 110px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 70px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 130px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 522px) {
+  .linktag .homeIcon {
+    left: 90px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 50px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 110px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 482px) {
+  .address ul {
+    margin-left: 20px;
+  }
+  .linktag .homeIcon {
+    left: 65px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 25px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 85px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 437px) {
+  .address ul {
+    margin-left: 20px;
+  }
+  .linktag .homeIcon {
+    left: 45px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: 5px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 65px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 391px) {
+  .address ul {
+    margin-left: 20px;
+  }
+  .linktag .homeIcon {
+    left: 30px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: -5px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 50px;
+    position: absolute;
+  }
+}
+
+@media (max-width: 368px) {
+  .address ul {
+    margin-left: 20px;
+  }
+  .linktag .homeIcon {
+    left: 15px;
+    top: 0;
+    position: absolute;
+  }
+  .linktag .mail {
+    top: 0;
+    left: -20px;
+    position: absolute;
+  }
+  .linktag .phone {
+    top: 0;
+    left: 35px;
+    position: absolute;
+  }
+}

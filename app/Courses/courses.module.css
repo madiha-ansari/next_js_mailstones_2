@@ -1,0 +1,167 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap");
+
+.text_box {
+  margin-top: 40px;
+  text-align: center;
+  padding: 0px 4px;
+}
+
+.text_box p {
+  margin-top: 5px;
+  color: #777;
+}
+.text_box p::selection {
+  background-color: #ff004f;
+  color: white;
+}
+
+.text_box h1 {
+  font-size: 3rem;
+  font-family: "Urbanist", sans-serif;
+  font-weight: 700;
+  color: #333;
+}
+
+.text_box h1::selection {
+  background-color: #ff004f;
+  color: white;
+}
+
+/* courses section */
+
+.courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.box {
+  height: 200px;
+  width: 31%;
+  background-color: #fff3f3;
+  padding: 20px 8px 15px 8px;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  overflow-x: hidden;
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.24);
+  transition: 0.3s;
+}
+
+.box_content {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 100%;
+}
+
+.box_content p {
+  color: #777;
+}
+.box_content p::selection {
+  background-color: #ff004f;
+  color: white;
+}
+
+.box_content h2 {
+  font-family: "Urbanist", sans-serif;
+}
+.box_content h2::selection {
+  background-color: #ff004f;
+  color: white;
+}
+
+.box_content span a {
+  font-size: 0.9rem;
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.box_content span a::selection {
+  background-color: #ff004f;
+  color: white;
+}
+
+.box_content span a:hover {
+  text-decoration: underline;
+}
+
+.box1 {
+  margin-left: 0px;
+}
+
+.box4 {
+  margin-left: 0px;
+}
+
+@media (max-width: 700px) {
+  .box {
+    width: 45%;
+  }
+  .box3 {
+    margin-left: 0px;
+  }
+  .box5 {
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 600px) {
+  .text_box h1 {
+    font-size: 2.5rem;
+  }
+  .box_content p {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 500px) {
+  .text_box h1 {
+    font-size: 2.5em;
+  }
+
+  .courses {
+    flex-direction: column;
+    align-items: center;
+  }
+  .box {
+    width: 90%;
+    margin-left: 0px;
+  }
+  .text_box h1 {
+    font-size: 2rem;
+  }
+  .box_content p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .text_box h1 {
+    font-size: 1.7em;
+  }
+  .box_content h2 {
+    font-size: 1.35rem;
+  }
+  .box_content p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .box_content p {
+    font-size: 0.9rem; /* Adjust as necessary */
+    display: -webkit-box; /* Allows for multi-line truncation */
+    -webkit-line-clamp: 3.1; /* Number of lines to show */
+    -webkit-box-orient: vertical; /* Sets the box orientation to vertical */
+    overflow: hidden; /* Hides any overflow */
+    text-overflow: ellipsis; /* Adds an ellipsis ("...") if the text is too long */
+  }
+}

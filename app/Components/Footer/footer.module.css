@@ -1,0 +1,20 @@
+.main {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer a {
+  margin-bottom: 20px;
+  color: #ff004f;
+}
+
+.copyright{
+    margin-bottom: 20px;
+}
