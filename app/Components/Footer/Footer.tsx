@@ -20,10 +20,10 @@ const Footer = () => {
           <Link href="">
             <FontAwesomeIcon icon={faFacebook} />
           </Link>
-          <Link href="https://www.instagram.com/azan.jundullah/" target="_blank">
+          <Link href="#" target="_blank">
             <FontAwesomeIcon icon={faInstagram} />
           </Link>
-          <Link href="https://www.linkedin.com/in/muhammad-azan-/" target="_blank">
+          <Link href="#" target="_blank">
             <FontAwesomeIcon icon={faLinkedin} />
           </Link>
           <Link href="">
@@ -34,7 +34,7 @@ const Footer = () => {
         <div className={styles.copyright}>
           Made with{" "}
           <FontAwesomeIcon icon={faHeart} style={{ color: "#ff004f" }} /> by
-          Muhammad Azan
+          Madiha Ansari
         </div>
       </div>
     </>

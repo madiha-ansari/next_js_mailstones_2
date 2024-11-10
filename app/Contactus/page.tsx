@@ -64,14 +64,14 @@ const Contact = () => {
           </ul>
 
           <ul className={styles.ul2}>
-            <Link className={styles.linktag} href="tel:+923101285239">
+            <Link className={styles.linktag} href="tel:+3162044275">
               {" "}
               <FontAwesomeIcon className={styles.phone} icon={faPhone} />{" "}
             </Link>
             <li>
               <h4>
-                <Link href="tel:+923101285239" className={styles.phoneLink}>
-                  +92 310-128523-9
+                <Link href="tel:+3162044275" className={styles.phoneLink}>
+                  +3162044275
                 </Link>
               </h4>
             </li>
