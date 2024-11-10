@@ -88,10 +88,11 @@ const Contact = () => {
             <li>
               <h4>
                 <Link
-                  href="mailto:azan96593@gmail.com"
+                  href="mailto:
+            ansarimadiha881@gmail.com"
                   className={styles.emailLink}
                 >
-                  muhammad.azan18@icloud.com
+                  ansarimadiha881@gmail.com
                 </Link>
               </h4>
             </li>
@@ -132,7 +133,7 @@ const Contact = () => {
         </div>
       </div>
 
-      <Footer/>
+      <Footer />
     </>
   );
 };
